@@ -1,0 +1,108 @@
+html {
+	scroll-behavior: smooth;
+}
+
+section {
+	padding-inline: 5rem;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
+#total-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-block: 5rem;
+	align-content: space-around;
+	align-items: center;
+	border: solid 3px #A3CFCD;
+	border-radius: 10px;
+	padding: 3rem;
+	background-color: white;
+	margin-inline: 3rem;
+}
+.products-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 6rem;
+	border: solid 3px #A3CFCD;
+	border-radius: 10px;
+	padding: 3rem;
+	background-color: white;
+	margin-inline: 3rem;
+}
+
+.products-image {
+	width: 300px;
+	height: auto;
+	margin-bottom: 3rem;
+	transition: ease-in-out 0.5s;
+	cursor: pointer;
+}
+
+.products-image:hover {
+	transition: ease-in-out 0.5s;
+	width: 330px;
+	height: auto;
+	margin-bottom: 3rem;
+}
+
+#loading-animation {
+	width: 300px;
+	height: 300px;
+}
+
+#loading-p {
+	position: absolute;
+	color: aliceblue;
+	top: 130px;
+	left: 120px;
+}
+
+#flying-button {
+	position: fixed;
+	top: 11rem;
+    bottom: 50rem;
+	opacity: 1;
+	width: fit-content;
+	height: fit-content;
+	padding: 1rem;
+}
+
+#toast {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 9999;
+}
+
+#toast-empty-cart {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 9999;
+}
+
+#scroll {
+	position: fixed;
+	top: 11rem;
+    bottom: 50rem;
+	opacity: 0.9;
+	width: fit-content;
+	height: fit-content;
+	padding: 1rem;
+}
+
+#total-price {
+	font-size: 1.5rem;
+	margin-top: 15px;
+}
+
+#your-items-box,  #your-amount-box {
+	font-size: 1rem;
+}
